@@ -70,7 +70,7 @@ sptrans-mba-dashboard/
 ---
 
 ## Autor
-**Breno** – Estudante de MBA  
+ 
 GitHub: [@breso78](https://github.com/breso78)
 
 ---
