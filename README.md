@@ -54,7 +54,7 @@ sptrans-mba-dashboard/
 > **Nota importante**: A Community Edition **não permite exportar o JSON do Job**.  
 > Por isso, incluímos o **diagrama oficial do DAG** (capturado diretamente da interface do Databricks) como prova da orquestração automatizada.
 
-![DAG do Workflow SPTrans v2.0 AUTO](workflow/sptrans_dag.png)
+![DAG do Workflow SPTrans v2.0 AUTO](workflow/sptrans-workflow-dag.png)
 
 ### Detalhes do Job:
 - **Nome**: `SPTrans v2.0 AUTO`
