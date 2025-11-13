@@ -65,7 +65,7 @@ sptrans-mba-dashboard/
 
 
 ## Dashboard (Link)
-[Ver Dashboard ao Vivo](https://databricks.com/your-dashboard-link)
+[Ver Dashboard Interativo em Tempo Real](https://dbc-f2766131-5553.cloud.databricks.com/dashboardsv3/01f0bf28dab311b589808ecd1ada7017/published?o=526959078324156)
 
 ---
 
