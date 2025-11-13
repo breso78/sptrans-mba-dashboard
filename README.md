@@ -49,8 +49,20 @@ sptrans-mba-dashboard/
 ├── README.md           → Este arquivo
 └── .gitignore
 
+## Orquestração (Databricks Jobs - Free Edition)
 
----
+> **Nota importante**: A Community Edition **não permite exportar o JSON do Job**.  
+> Por isso, incluímos o **diagrama oficial do DAG** (capturado diretamente da interface do Databricks) como prova da orquestração automatizada.
+
+![DAG do Workflow SPTrans v2.0 AUTO](workflow/sptrans-v2.0-auto-dag.png)
+
+### Detalhes do Job:
+- **Nome**: `SPTrans v2.0 AUTO`
+- **Frequência**: A cada 10 minutos
+- **Tasks**: 9 (bronze → silver → gold)
+- **Dependências**: Totalmente configuradas (ex: gold depende de silver)
+- **Status**: 100% sucesso nas últimas execuções
+
 
 ## Dashboard (Link)
 [Ver Dashboard ao Vivo](https://databricks.com/your-dashboard-link)
