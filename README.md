@@ -50,6 +50,14 @@ Bronze (Raw) → Silver (Trusted) → Gold (Curated) → Dashboard
 | `docs/` | Relatório final (PDF), slides (PPTX), diagramas |
 | `workflow/` | Diagrama do Job (DAG) — Free Edition não exporta JSON |
 
+## Arquitetura do Sistema
+
+![Visão Geral da Arquitetura](workflow/arquitetura.png)
+
+> **Fluxo completo**: API Olho Vivo → Databricks Lakehouse → Delta Bronze/Silver/Gold → SQL Dashboard  
+> **Enriquecimento com GTFS + geopy** · **9 notebooks orquestrados**
+
+
 ## Orquestração (Databricks Jobs - Free Edition)
 
 > **Nota importante**: A Community Edition **não permite exportar o JSON do Job**.  
