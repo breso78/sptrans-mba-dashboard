@@ -42,6 +42,7 @@ Bronze (Raw) → Silver (Trusted) → Gold (Curated) → Dashboard
 ---
 
 ## Estrutura do Repositório
+
 sptrans-mba-dashboard/
 ├── notebooks/          → Notebooks Databricks (.ipynb)
 ├── docs/               → Diagramas e relatório
